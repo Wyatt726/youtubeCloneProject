@@ -1,1 +1,19 @@
-<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/></root></mxGraphModel>
+<mxfile host="65bd71144e">
+    <diagram id="EHmse1K0MgCP0Y-xRc69" name="Page-1">
+        <mxGraphModel dx="871" dy="269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="Class Video&lt;br&gt;-video_id(Textfield = 50)&lt;br&gt;-Comment(Textfield = 50)&lt;br&gt;-Likes(default=0)&lt;br&gt;-Dislikes(default=0)&lt;br&gt;-replies(textField = 50)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="25" width="180" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="OR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="70" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Class Replies&lt;br&gt;-Likes(default=0)&lt;br&gt;-Dislikes(default=0)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="30" width="160" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
