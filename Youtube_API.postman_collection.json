@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Get_All_Videos",
+			"name": "related_videos",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -15,7 +15,7 @@
 			"response": []
 		},
 		{
-			"name": "Create_Video",
+			"name": "youtube_video_info",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -41,6 +41,38 @@
 					"path": [
 						"youtube",
 						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "youtube_search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/youtube/v3/search?q=string&key=AIzaSyDwesMV6eY9pgHWVav1WEqJL_C4vwvNzb4",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"youtube",
+						"v3",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "string"
+						},
+						{
+							"key": "key",
+							"value": "AIzaSyDwesMV6eY9pgHWVav1WEqJL_C4vwvNzb4"
+						}
 					]
 				}
 			},
