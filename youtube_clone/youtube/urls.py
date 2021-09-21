@@ -5,5 +5,6 @@ from . import views
 
 urlpatterns = [
     path('youtube/', views.VideoList.as_view()),
+    path('youtube/ld/<int:pk>', views.LikesDislikes.as_view())
 
 ]
